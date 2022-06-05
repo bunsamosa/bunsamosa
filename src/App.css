@@ -1,83 +1,53 @@
+/* page background */
 .page-background{
   background-color: #000000;
   color: white;
 }
-.logo{
-  color: white!important;
-}
-.links{
-  color: black!important;
-  font-weight: bold;
-  background-color: #FFE69A;
-  border-radius: 15px;
-  padding: 12px !important;
-  box-shadow: 4px 4px #b29a54;
-}
-.nav-link{
-  margin: 0 10px !important;
-}
-.navbar-toggler-icon{
-  background-color: white !important;
-}
-.header-section{
-  padding-top: 2%;
-  padding-bottom: 2%;
-}
+/* Hero section */
 .hero-section{
   font-family: 'PT Serif Caption', serif;
+  padding-top: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom:9rem;
+}
+.landing-logo{
+  width:20%;
 }
 .landing-text{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  margin-top: 10%;
-  padding-bottom: 20%;
 }
-.arrows {
-	width: 60px;
-	height: 72px;
-	position: absolute;
-	left: 50%;
-	margin-left: -30px;
-	bottom: 20px;
+.github-logo{
+  margin-top: 20px;
 }
 
-.arrows path {
-	stroke: #ffffff;
-	fill: transparent;
-	stroke-width: 1px;	
-	animation: arrow 2s infinite;
-	-webkit-animation: arrow 2s infinite; 
+@media only screen and (max-width: 600px) {
+  .page-background {
+    /* height: 49rem !important; */
+    padding-bottom: 29%;
+  }
+  .hero-section{
+    padding-top: 40%;
+  }
+  .landing-text{
+    margin-top: 5%;
+    width:80%;
+  }
 }
 
-@keyframes arrow
-{
-0% {opacity:0}
-40% {opacity:1}
-80% {opacity:0}
-100% {opacity:0}
-}
-
-@-webkit-keyframes arrow /*Safari and Chrome*/
-{
-0% {opacity:0}
-40% {opacity:1}
-80% {opacity:0}
-100% {opacity:0}
-}
-
-.arrows path.a1 {
-	animation-delay:-1s;
-	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
-}
-
-.arrows path.a2 {
-	animation-delay:-0.5s;
-	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
-}
-
-.arrows path.a3 {	
-	animation-delay:0s;
-	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+@media (min-width: 600px) and (max-width: 1000px) {
+  .page-background {
+    padding-bottom: 2%;
+  }
+  .hero-section{
+    padding-top: 20%;
+  }
+  .landing-text{
+    margin-top: 5%;
+    width:80%;
+  }
 }
