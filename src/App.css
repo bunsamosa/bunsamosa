@@ -1,9 +1,11 @@
+/* Header section */
 .page-background{
   background-color: #000000;
   color: white;
 }
 .logo{
   color: white!important;
+  font-family: 'PT Serif Caption', serif;
 }
 .links{
   color: black!important;
@@ -23,17 +25,36 @@
   padding-top: 2%;
   padding-bottom: 2%;
 }
+
+/* Hero section */
 .hero-section{
   font-family: 'PT Serif Caption', serif;
+  padding-top: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom:10%;
+}
+.landing-logo{
+  width:20%;
 }
 .landing-text{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  margin-top: 10%;
-  padding-bottom: 20%;
+  padding-bottom: 1%;
 }
+.github-btn{
+  background-color: #FFE69A;
+  width: 10%;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 3px 3px #b29a54;
+  border: none;
+}
+
+/* Page arrow section */
 .arrows {
 	width: 60px;
 	height: 72px;
@@ -80,4 +101,91 @@
 .arrows path.a3 {	
 	animation-delay:0s;
 	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
+
+/* Why section */
+.why-section{
+  padding-bottom: 2%;
+}
+.why-section,.journey-section h1{
+  padding-top: 10%;
+  text-align: center;
+  font-size: 70px;
+  font-family: 'PT Serif Caption', serif;
+}
+.why-section h3{
+  text-align: center;
+  padding-top: 10px;
+  font-family: 'PT Serif Caption', serif;
+}
+.bunsamosa-process{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.ideas-gif{
+  width:15rem;
+  border-radius: 200px;
+  margin-top: 50px;
+}
+.align-cards{
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  align-items: center;
+}
+
+/* Journey section */
+.journey-section{
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+.rubix-img,.eggplant-img{
+  width: 15rem;
+  height: 13rem;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+.journey-section h3, a{
+  padding-top: 2%;
+  color: #000000;
+  text-align: center;
+  font-family: 'PT Serif Caption', serif;
+}
+.journey-section a{
+  text-decoration: none !important;
+  color:rgb(168, 73, 0);
+  margin-left: 42%;
+}
+.journey-card{
+  background-color: #FFE69A;
+  width: 25%;
+  margin-top: 10%;
+  border-radius: 15px;
+  box-shadow: 6px 5px #b29a54;
+  padding-bottom: 2%;
+}
+.align-card{
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  margin-left: 30%;
+}
+
+/* Footer section */
+.footer-section{
+  padding: 5% 0%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20%;
+}
+.footer-section img{
+  width: 5%;
+}
+.footer-section p{
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: 'PT Serif Caption', serif;
 }
