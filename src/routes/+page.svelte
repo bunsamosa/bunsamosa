@@ -35,6 +35,6 @@
 
 <style>
 	.home-btn {
-		@apply btn btn-ghost gap-2 mx-2 border-solid border-2 border-indigo-600 font-bold;
+		@apply btn btn-ghost gap-2 mx-2 my-1 border-solid border-2 border-indigo-600 font-bold;
 	}
 </style>
